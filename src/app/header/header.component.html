@@ -20,13 +20,8 @@
             </nav>
         </div>
 
-        <!-- Right side: Search, Login, Cart -->
+        <!-- Right side: Login, Cart -->
         <div class="flex items-center space-x-3 sm:space-x-6">
-            <!-- Search Box -->
-            <div class="flex-1">
-                <input type="text" placeholder="Search"
-                    class="border border-gray-300 rounded-lg px-3 py-2 w-28 sm:w-40 focus:outline-none">
-            </div>
             <!-- Login Button -->
             <div class="relative">
                 <a href="/login">
@@ -50,12 +45,14 @@
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                         </svg>
+                        
 
                         <span class="sr-only">Notifications</span>
                         <div
                             class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-red-500 border-2 border-white rounded-full -top-2 -end-2 dark:border-gray-900"
                             *ngIf="totalProducts > 0">
-                            {{totalProducts}} </div>
+                            {{totalProducts}}
+                        </div>
                     </button>
                 </a>
             </div>
@@ -68,5 +65,10 @@
         <a href="/products" class="block text-gray-700 hover:text-gray-900 p-3">Products</a>
         <a href="/about" class="block text-gray-700 hover:text-gray-900 p-3">About</a>
         <a href="/contact" class="block text-gray-700 hover:text-gray-900 p-3">Contact</a>
+        <!-- Search Box in Mobile Menu -->
+        <div class="p-3">
+            <input type="text" placeholder="Search"
+                class="border border-gray-300 rounded-lg px-3 py-2 w-full focus:outline-none">
+        </div>
     </nav>
 </header>

@@ -1,0 +1,23 @@
+<div class="cart-container p-4">
+    <h1 class="text-2xl font-bold mb-4">Shopping Cart</h1>
+    <div class="cart-items space-y-4">
+        <div class="cart-item flex items-center space-x-4 p-4 border rounded-lg" *ngFor="let item of cartItems">
+            <img [src]="item.image" alt="{{item.name}}" class="cart-item-image w-24 h-24 object-cover">
+            <div class="cart-item-details flex-1">
+                <h2 class="text-xl font-semibold">{{item.name}}</h2>
+                <p class="text-gray-600">Price: {{item.price | currency}}</p>
+                <div class="quantity-control">
+                    <label for="quantity-{{item.id}}" class="text-gray-600">Quantity:</label>
+                    <input id="quantity-{{item.id}}" type="number" min="1" [value]="item.quantity" (change)="updateQuantity(item, $event)" class="border rounded px-2 py-1 w-16">
+                </div>
+            </div>
+            <button class="bg-red-500 text-white px-4 py-2 rounded" (click)="removeFromCart(item)">Remove</button>
+        </div>
+    </div>
+    <div class="cart-summary mt-8 p-4 border rounded-lg">
+        <h2 class="text-xl font-bold mb-2">Cart Summary</h2>
+        <p class="text-gray-600">Total Quantity: {{getTotalQuantity()}}</p>
+        <p class="text-gray-600">Total Price: {{getTotalPrice() | currency}}</p>
+        <button class="bg-white text-gray-700 border border-black hover:bg-black hover:text-white px-4 py-2 rounded mt-4" (click)="checkout()">Checkout</button>
+    </div>
+</div>

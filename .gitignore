@@ -1,0 +1,50 @@
+# 🔹 Ignore Angular build artifacts
+dist/
+out-tsc/
+.angular/
+
+# 🔹 Ignore dependencies
+node_modules/
+
+# 🔹 Ignore environment files
+src/environments/environment*.ts
+
+# 🔹 Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 🔹 Ignore IDE/Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# 🔹 Ignore TypeScript build files
+*.js
+*.js.map
+*.d.ts
+
+# 🔹 Ignore testing-related files
+coverage/
+karma-coverage/
+.nyc_output/
+junit.xml
+test-results.xml
+
+# 🔹 Ignore optional dependencies from package managers
+# package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 🔹 Ignore Firebase hosting cache (if using Firebase)
+.firebase/
+
+# 🔹 Ignore Storybook (if using Storybook)
+.storybook/

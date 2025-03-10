@@ -1,0 +1,408 @@
+[
+    {
+        "id": 1,
+        "name": "T-shirt",
+        "category": "Topwear",
+        "price": 19.99,
+        "size": "M",
+        "color": "Red",
+        "image": "https://contents.mediadecathlon.com/p2606947/k$1c9e0ffdefc3e67bdeabc82be7893e93/dry-men-s-running-breathable-t-shirt-red-decathlon-8771124.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Jeans",
+        "category": "Bottomwear",
+        "price": 49.99,
+        "size": "32",
+        "color": "Blue",
+        "image": "https://image.hm.com/assets/hm/8b/ea/8bea8bac07ed75596e5597f6d2997f07cfd81fac.jpg?imwidth=768"
+    },
+    {
+        "id": 3,
+        "name": "Sneakers",
+        "category": "Footwear",
+        "price": 79.99,
+        "size": "10",
+        "color": "White",
+        "image": "https://cdn.myshoptet.com/usr/www.dophams.com/user/shop/big/331-1_white-sneakers.jpg?60507235"
+    },
+    {
+        "id": 4,
+        "name": "Jacket",
+        "category": "Outerwear",
+        "price": 99.99,
+        "size": "L",
+        "color": "Black",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiY944wFL7Hqlse32v6ZtHNizEbt9IfieLCw&s"
+    },
+    {
+        "id": 5,
+        "name": "Dress",
+        "category": "Topwear",
+        "price": 59.99,
+        "size": "S",
+        "color": "Green",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1iDTpQhpEziu9-nZeO5MFlJbOOpUFgMbVoQ&s"
+    },
+    {
+        "id": 6,
+        "name": "Skirt",
+        "category": "Bottomwear",
+        "price": 29.99,
+        "size": "M",
+        "color": "Pink",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVkwhZN1cBi4m1TFMiQ869vrA-mYfIQnfgXw&s"
+    },
+    {
+        "id": 7,
+        "name": "Sandals",
+        "category": "Footwear",
+        "price": 39.99,
+        "size": "8",
+        "color": "Brown"
+    },
+    {
+        "id": 8,
+        "name": "Blazer",
+        "category": "Outerwear",
+        "price": 89.99,
+        "size": "L",
+        "color": "Navy"
+    },
+    {
+        "id": 9,
+        "name": "Sweater",
+        "category": "Topwear",
+        "price": 49.99,
+        "size": "M",
+        "color": "Gray"
+    },
+    {
+        "id": 10,
+        "name": "Shorts",
+        "category": "Bottomwear",
+        "price": 24.99,
+        "size": "L",
+        "color": "Black"
+    },
+    {
+        "id": 11,
+        "name": "Boots",
+        "category": "Footwear",
+        "price": 99.99,
+        "size": "9",
+        "color": "Brown"
+    },
+    {
+        "id": 12,
+        "name": "Coat",
+        "category": "Outerwear",
+        "price": 129.99,
+        "size": "M",
+        "color": "Beige"
+    },
+    {
+        "id": 13,
+        "name": "Blouse",
+        "category": "Topwear",
+        "price": 34.99,
+        "size": "S",
+        "color": "White"
+    },
+    {
+        "id": 14,
+        "name": "Trousers",
+        "category": "Bottomwear",
+        "price": 44.99,
+        "size": "34",
+        "color": "Gray"
+    },
+    {
+        "id": 15,
+        "name": "Loafers",
+        "category": "Footwear",
+        "price": 69.99,
+        "size": "11",
+        "color": "Black"
+    },
+    {
+        "id": 16,
+        "name": "Parka",
+        "category": "Outerwear",
+        "price": 119.99,
+        "size": "L",
+        "color": "Olive"
+    },
+    {
+        "id": 17,
+        "name": "Tank Top",
+        "category": "Topwear",
+        "price": 14.99,
+        "size": "M",
+        "color": "Yellow"
+    },
+    {
+        "id": 18,
+        "name": "Capris",
+        "category": "Bottomwear",
+        "price": 29.99,
+        "size": "M",
+        "color": "Blue"
+    },
+    {
+        "id": 19,
+        "name": "Flip Flops",
+        "category": "Footwear",
+        "price": 19.99,
+        "size": "7",
+        "color": "Green"
+    },
+    {
+        "id": 20,
+        "name": "Raincoat",
+        "category": "Outerwear",
+        "price": 79.99,
+        "size": "M",
+        "color": "Yellow"
+    },
+    {
+        "id": 21,
+        "name": "Cardigan",
+        "category": "Topwear",
+        "price": 39.99,
+        "size": "L",
+        "color": "Purple"
+    },
+    {
+        "id": 22,
+        "name": "Leggings",
+        "category": "Bottomwear",
+        "price": 24.99,
+        "size": "S",
+        "color": "Black"
+    },
+    {
+        "id": 23,
+        "name": "Heels",
+        "category": "Footwear",
+        "price": 59.99,
+        "size": "8",
+        "color": "Red"
+    },
+    {
+        "id": 24,
+        "name": "Windbreaker",
+        "category": "Outerwear",
+        "price": 69.99,
+        "size": "M",
+        "color": "Blue"
+    },
+    {
+        "id": 25,
+        "name": "Polo Shirt",
+        "category": "Topwear",
+        "price": 29.99,
+        "size": "M",
+        "color": "White"
+    },
+    {
+        "id": 26,
+        "name": "Cargo Pants",
+        "category": "Bottomwear",
+        "price": 49.99,
+        "size": "34",
+        "color": "Green"
+    },
+    {
+        "id": 27,
+        "name": "Moccasins",
+        "category": "Footwear",
+        "price": 79.99,
+        "size": "10",
+        "color": "Brown"
+    },
+    {
+        "id": 28,
+        "name": "Peacoat",
+        "category": "Outerwear",
+        "price": 149.99,
+        "size": "L",
+        "color": "Black"
+    },
+    {
+        "id": 29,
+        "name": "Crop Top",
+        "category": "Topwear",
+        "price": 19.99,
+        "size": "S",
+        "color": "Pink"
+    },
+    {
+        "id": 30,
+        "name": "Joggers",
+        "category": "Bottomwear",
+        "price": 39.99,
+        "size": "M",
+        "color": "Gray"
+    },
+    {
+        "id": 31,
+        "name": "Ballet Flats",
+        "category": "Footwear",
+        "price": 49.99,
+        "size": "7",
+        "color": "Black"
+    },
+    {
+        "id": 32,
+        "name": "Trench Coat",
+        "category": "Outerwear",
+        "price": 199.99,
+        "size": "M",
+        "color": "Beige"
+    },
+    {
+        "id": 33,
+        "name": "Henley Shirt",
+        "category": "Topwear",
+        "price": 24.99,
+        "size": "L",
+        "color": "Blue"
+    },
+    {
+        "id": 34,
+        "name": "Chinos",
+        "category": "Bottomwear",
+        "price": 44.99,
+        "size": "32",
+        "color": "Khaki"
+    },
+    {
+        "id": 35,
+        "name": "Oxfords",
+        "category": "Footwear",
+        "price": 89.99,
+        "size": "9",
+        "color": "Black"
+    },
+    {
+        "id": 36,
+        "name": "Bomber Jacket",
+        "category": "Outerwear",
+        "price": 129.99,
+        "size": "L",
+        "color": "Green"
+    },
+    {
+        "id": 37,
+        "name": "V-neck Shirt",
+        "category": "Topwear",
+        "price": 19.99,
+        "size": "M",
+        "color": "Gray"
+    },
+    {
+        "id": 38,
+        "name": "Sweatpants",
+        "category": "Bottomwear",
+        "price": 34.99,
+        "size": "L",
+        "color": "Black"
+    },
+    {
+        "id": 39,
+        "name": "Chelsea Boots",
+        "category": "Footwear",
+        "price": 99.99,
+        "size": "10",
+        "color": "Brown"
+    },
+    {
+        "id": 40,
+        "name": "Denim Jacket",
+        "category": "Outerwear",
+        "price": 89.99,
+        "size": "M",
+        "color": "Blue"
+    },
+    {
+        "id": 41,
+        "name": "Tunic",
+        "category": "Topwear",
+        "price": 29.99,
+        "size": "S",
+        "color": "White"
+    },
+    {
+        "id": 42,
+        "name": "Overalls",
+        "category": "Bottomwear",
+        "price": 59.99,
+        "size": "M",
+        "color": "Blue"
+    },
+    {
+        "id": 43,
+        "name": "Espadrilles",
+        "category": "Footwear",
+        "price": 39.99,
+        "size": "8",
+        "color": "Beige"
+    },
+    {
+        "id": 44,
+        "name": "Puffer Jacket",
+        "category": "Outerwear",
+        "price": 149.99,
+        "size": "L",
+        "color": "Red"
+    },
+    {
+        "id": 45,
+        "name": "Blouson",
+        "category": "Topwear",
+        "price": 49.99,
+        "size": "M",
+        "color": "Black"
+    },
+    {
+        "id": 46,
+        "name": "Culottes",
+        "category": "Bottomwear",
+        "price": 39.99,
+        "size": "S",
+        "color": "White"
+    },
+    {
+        "id": 47,
+        "name": "Wedges",
+        "category": "Footwear",
+        "price": 59.99,
+        "size": "7",
+        "color": "Brown"
+    },
+    {
+        "id": 48,
+        "name": "Duffle Coat",
+        "category": "Outerwear",
+        "price": 179.99,
+        "size": "M",
+        "color": "Navy"
+    },
+    {
+        "id": 49,
+        "name": "Peplum Top",
+        "category": "Topwear",
+        "price": 34.99,
+        "size": "S",
+        "color": "Pink"
+    },
+    {
+        "id": 50,
+        "name": "Palazzo Pants",
+        "category": "Bottomwear",
+        "price": 44.99,
+        "size": "M",
+        "color": "Black"
+    }
+]

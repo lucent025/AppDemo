@@ -18,6 +18,23 @@
                 <a href="/about" class="text-gray-700 hover:text-gray-900">About</a>
                 <a href="/contact" class="text-gray-700 hover:text-gray-900">Contact</a>
             </nav>
+            <div class="relative p-3 hidden sm:block" (focusout)="hideResults()">
+                <input type="text" placeholder="Search" (input)="onSearch($event)" (focus)="showResults()"
+                    class="border border-gray-300 rounded-lg px-3 py-2 w-full focus:outline-none">
+                <div *ngIf="isResultsVisible && searchResults.length > 0"
+                    class="absolute bg-white border border-gray-300 rounded-lg mt-1 w-full z-10">
+                    <ul>
+                        <li *ngFor="let result of searchResults"
+                            class="p-2 hover:bg-gray-100 cursor-pointer flex items-center justify-between">
+                            <div class="flex items-center space-x-2">
+                                <img [src]="result.image" alt="{{ result.name }}" class="w-8 h-8 rounded-full">
+                                <span>{{ result.name }}</span>
+                            </div>
+                            <span class="text-gray-700">{{ result.price | currency }}</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
         <!-- Right side: Login, Cart -->
@@ -45,11 +62,10 @@
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                         </svg>
-                        
+
 
                         <span class="sr-only">Notifications</span>
-                        <div
-                            class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-red-500 border-2 border-white rounded-full -top-2 -end-2 dark:border-gray-900"
+                        <div class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-red-500 border-2 border-white rounded-full -top-2 -end-2 dark:border-gray-900"
                             *ngIf="totalProducts > 0">
                             {{totalProducts}}
                         </div>
@@ -66,9 +82,22 @@
         <a href="/about" class="block text-gray-700 hover:text-gray-900 p-3">About</a>
         <a href="/contact" class="block text-gray-700 hover:text-gray-900 p-3">Contact</a>
         <!-- Search Box in Mobile Menu -->
-        <div class="p-3">
-            <input type="text" placeholder="Search"
-                class="border border-gray-300 rounded-lg px-3 py-2 w-full focus:outline-none">
+        <div class="p-3" (focusout)="hideResults()">
+            <input type="text" placeholder="Search" (input)="onSearch($event)" (focus)="showResults()"
+                    class="border border-gray-300 rounded-lg px-3 py-2 w-full focus:outline-none">
+                <div *ngIf="isResultsVisible && searchResults.length > 0"
+                    class="absolute bg-white border border-gray-300 rounded-lg mt-1 w-full z-10">
+                    <ul>
+                        <li *ngFor="let result of searchResults"
+                            class="p-2 hover:bg-gray-100 cursor-pointer flex items-center justify-between">
+                            <div class="flex items-center space-x-2">
+                                <img [src]="result.image" alt="{{ result.name }}" class="w-8 h-8 rounded-full">
+                                <span>{{ result.name }}</span>
+                            </div>
+                            <span class="text-gray-700">{{ result.price | currency }}</span>
+                        </li>
+                    </ul>
+                </div>
         </div>
     </nav>
 </header>

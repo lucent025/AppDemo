@@ -86,7 +86,7 @@
             <input type="text" placeholder="Search" (input)="onSearch($event)" (focus)="showResults()"
                     class="border border-gray-300 rounded-lg px-3 py-2 w-full focus:outline-none">
                 <div *ngIf="isResultsVisible && searchResults.length > 0"
-                    class="absolute bg-white border border-gray-300 rounded-lg mt-1 w-full z-10">
+                    class="absolute bg-white border border-gray-300 rounded-lg w-11/12 z-10 mt-2">
                     <ul>
                         <li *ngFor="let result of searchResults"
                             class="p-2 hover:bg-gray-100 cursor-pointer flex items-center justify-between">
